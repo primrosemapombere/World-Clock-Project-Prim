@@ -1,0 +1,80 @@
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/141/845/original/pexels-kuba-karon-2044991-3671649.jpg?1725277743);
+  font-family: sans-serif;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+  color: black;
+  opacity: 1;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+  color: black;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: white;
+  opacity: 0.5;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  color: white;
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+p {
+  color: white;
+}
+a {
+  color: aqua;
+}
